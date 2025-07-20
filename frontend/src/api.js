@@ -1,10 +1,10 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:8000/api', // Laravel's base API URL
+  baseURL: 'https://task-manager-1-production-4940.up.railway.app/api/tasks', // Laravel's base API URL
 });
 
-axios.get('http://127.0.0.1:8000/api/tasks')
+axios.get('https://task-manager-1-production-4940.up.railway.app/api/tasks')
   .then(res => console.log(res.data))
   .catch(err => console.error(err));
 
