@@ -96,7 +96,7 @@ const editedTask = ref({
   description: ''
 });
 
-const API_BASE = 'http://127.0.0.1:8000/api/tasks';
+const API_BASE = 'https://task-manager-1-production-4940.up.railway.app/api/tasks';
 
 const fetchTasks = async () => {
   try {
